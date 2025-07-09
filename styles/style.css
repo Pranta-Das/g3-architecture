@@ -1,4 +1,31 @@
-h1{
-    color: aqua;
-    font-size: 50px;
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* shared style */
+.dark_1{
+    color: #131313;
+}
+.dark-2{
+    color: #424242;
+}
+/* header styles */
+.header-container{
+    padding: 50px 180px;
+    background-color: #FFF4E7;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #424242;
+    padding: 0px 5px;
+    margin: 0px 10px;
+}
+.nav-link li{
+    list-style: none;
+    display: inline;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
